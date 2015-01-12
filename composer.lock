@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb96ba531102b88821bbd07f51895bb4",
+    "hash": "ad852bcc4449505181b9940973bec73e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -86,6 +86,45 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "time": "2014-01-17 12:21:18"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "3eb6d349f0bae5e73fba5e6d68d696f811feba5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/3eb6d349f0bae5e73fba5e6d68d696f811feba5c",
+                "reference": "3eb6d349f0bae5e73fba5e6d68d696f811feba5c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2015-01-12 00:58:08"
         },
         {
             "name": "filp/whoops",
@@ -349,6 +388,51 @@
                 "laravel"
             ],
             "time": "2014-12-22 20:56:10"
+        },
+        {
+            "name": "maxhoffmann/parsedown-laravel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxhoffmann/parsedown-laravel.git",
+                "reference": "0499236974239d2193c12e7925b8178d9af8bc4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxhoffmann/parsedown-laravel/zipball/0499236974239d2193c12e7925b8178d9af8bc4e",
+                "reference": "0499236974239d2193c12e7925b8178d9af8bc4e",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MaxHoffmann\\Parsedown": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maximilian Hoffmann",
+                    "email": "max@maximilianhoffmann.com"
+                }
+            ],
+            "description": "A parsedown (markdown) wrapper for Laravel ",
+            "homepage": "https://github.com/maxhoffmann/parsedown-laravel",
+            "keywords": [
+                "Laravel 4",
+                "laravel",
+                "markdown",
+                "parsedown",
+                "php"
+            ],
+            "time": "2013-12-13 23:54:04"
         },
         {
             "name": "monolog/monolog",
@@ -1690,9 +1774,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "maxhoffmann/parsedown-laravel": 20
+    },
     "prefer-stable": false,
     "platform": [
 
